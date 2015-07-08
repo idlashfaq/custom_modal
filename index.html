@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Simple Fade Slider</title>
+        <link href="demo.css" type="text/css" rel="stylesheet">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="customPopup.js"></script>
+        
+        <script type="text/javascript">
+			$(document).ready(function(e) {
+				$(".popup").customPopup({width: 600, trigger: ".btn", closeIcon: ".popup .close-icon"});
+			});
+		</script>
+    </head>
+    
+    <body>
+        <div class="popup">
+        	<span class="close-icon">x</span>
+            <div class="example">
+                <h2>Example Heading</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+        </div>
+        <button class="btn">Button 1</button>
+    </body>
+</html>
